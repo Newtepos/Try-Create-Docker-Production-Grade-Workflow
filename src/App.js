@@ -15,7 +15,11 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
+<<<<<<< HEAD
           I changed on Main branch
+=======
+         I was changed on feature branch 2
+>>>>>>> e7b82f3251ead3d2fe6d8fd43d41c36a7cc57b7a
         </a>
       </header>
     </div>
