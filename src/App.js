@@ -16,10 +16,10 @@ function App() {
           rel="noopener noreferrer"
         >
           I changed on Main
+          learn react
         </a>
       </header>
     </div>
   );
 }
-
 export default App;
