@@ -7,3 +7,15 @@ before_install:
 
 script: 
   - docker run -e CI=true newtepos/docker-react npm run test -- --coverage
+
+deploy: 
+  provider: elasticbeanstalk
+  region: "us-west-1"
+  app: "docker-react"
+  env: "Dockerreact-env"
+  bucker-name: "elasticbeanstalk-us-west-1-102096584269"
+  bocker_path: "docker-react"
+  on:
+    branch: main
+  access_key_id: $AWS_ACCESS_KEY
+  secret_access_key: $AWS_SECRET_KEY
